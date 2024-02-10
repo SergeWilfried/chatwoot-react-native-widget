@@ -1,7 +1,7 @@
 {
   "name": "@chatwoot/react-native-widget",
   "version": "0.0.18",
-  "description": "React Native widget for Chatwoot",
+  "description": "React Native widget for Capsule",
   "main": "index.js",
    "scripts": {
     "lint": "eslint .",
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chatwoot/chatwoot-react-native-widget.git"
+    "url": "git+https://github.com/SergeWilfried/capsule.git"
   },
   "keywords": [
     "react-native",
@@ -50,8 +50,8 @@
     "android"
   ],
   "bugs": {
-    "url": "https://github.com/chatwoot/chatwoot-react-native-widget/issues"
+    "url": "https://github.com/SergeWilfried/capsule/issues"
   },
-  "homepage": "https://github.com/chatwoot/chatwoot-react-native-widget#readme",
+  "homepage": "https://github.com/SergeWilfried/capsule#readme",
   "license": "MIT"
 }

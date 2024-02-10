@@ -46,7 +46,7 @@ import React, { useState } from 'react';
 
 import { StyleSheet, View, SafeAreaView, TouchableOpacity, Text } from 'react-native';
 
-import ChatWootWidget from '@chatwoot/react-native-widget';
+import CapsuleWidget from '@chatwoot/react-native-widget';
 
 const App = () => {
   const [showWidget, toggleWidget] = useState(false);
@@ -72,7 +72,7 @@ const App = () => {
       </View>
       {
         showWidget&&
-          <ChatWootWidget
+          <CapsuleWidget
             websiteToken={websiteToken}
             locale={locale}
             baseUrl={baseUrl}

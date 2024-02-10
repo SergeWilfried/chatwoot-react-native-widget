@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import ChatWootWidget from '@chatwoot/react-native-widget';
+import CapsuleWidget from '@capsule/react-native-widget';
 
 import {
   SafeAreaView,
@@ -25,7 +25,7 @@ const App = () => {
     status: 'active',
   };
   const websiteToken = 'RY3LaFtwmkPhDdZVmRd4ektW';
-  const baseUrl = 'https://staging.chatwoot.com';
+  const baseUrl = 'https://staging.getcapsule.com';
   const [locale, setLocale] = useState('en');
 
   return (
@@ -77,7 +77,7 @@ const App = () => {
           <Text style={styles.buttonText}>Open Chatwoot Widget</Text>
         </TouchableOpacity>
       </View>
-      <ChatWootWidget
+      <CapsuleWidget
         websiteToken={websiteToken}
         locale={locale}
         baseUrl={baseUrl}

@@ -32,7 +32,7 @@ const defaultProps = {
   customAttributes: {},
 };
 
-const ChatWootWidget = ({
+const CapsuleWidget = ({
   isModalVisible,
   baseUrl,
   websiteToken,
@@ -82,7 +82,7 @@ const ChatWootWidget = ({
   );
 };
 
-ChatWootWidget.defaultProps = defaultProps;
-ChatWootWidget.propTypes = propTypes;
+CapsuleWidget.defaultProps = defaultProps;
+CapsuleWidget.propTypes = propTypes;
 
-export default ChatWootWidget;
+export default CapsuleWidget;
