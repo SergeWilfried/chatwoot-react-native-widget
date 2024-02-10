@@ -1,5 +1,5 @@
 <h1>
-chatwoot-react-native-widget
+capsule-react-native-widget
 </h1>
 
 ![](https://img.shields.io/npm/v/@chatwoot/react-native-widget?style=flat)
@@ -16,13 +16,13 @@ chatwoot-react-native-widget
 Install the library using either yarn or npm like so:
 
 ```sh
-yarn add @chatwoot/react-native-widget
+yarn add @capsule/react-native-widget
 ```
 
 OR
 
 ```sh
-npm install --save @chatwoot/react-native-widget
+npm install --save @capsule/react-native-widget
 ```
 
 This library depends on [react-native-webview](https://www.npmjs.com/package/react-native-webview) and [async-storage](https://github.com/react-native-async-storage/async-storage). Please follow the instructions provided in the docs.
@@ -46,7 +46,7 @@ import React, { useState } from 'react';
 
 import { StyleSheet, View, SafeAreaView, TouchableOpacity, Text } from 'react-native';
 
-import CapsuleWidget from '@chatwoot/react-native-widget';
+import CapsuleWidget from '@capsule/react-native-widget';
 
 const App = () => {
   const [showWidget, toggleWidget] = useState(false);
@@ -135,7 +135,7 @@ The whole example is in the `/example` folder.
     <td>baseUrl</td>
     <td> - </td>
     <td> String </td>
-    <td>Chatwoot installation URL</td>
+    <td>Capsule installation URL</td>
   </tr>
  <tr>
     <td>websiteToken</td>
